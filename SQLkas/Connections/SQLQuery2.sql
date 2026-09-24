@@ -1,0 +1,9 @@
+USE ForConnections
+GO
+
+SET STATISTICS IO ON 
+
+SELECT * FROM orders WHERE customer_id = '85B26101-9203-4807-92BA-CC5F33F80CAB'
+--WHERE id = '47A04640-6C48-4454-904F-F684865F46EF'
+
+-- 7,373 предполагаемая стоимость -> 0,003
